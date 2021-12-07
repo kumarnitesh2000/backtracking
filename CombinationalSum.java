@@ -28,7 +28,7 @@ public class CombinationalSum {
         return res;
     }
     public static void main(String[] args) {
-        ArrayList<ArrayList<Integer>> res = combinationSum(new ArrayList<Integer>(Arrays.asList(2,5,7)),7);
+        ArrayList<ArrayList<Integer>> res = combinationSum(new ArrayList<Integer>(Arrays.asList(2,5,7)),8);
         for(ArrayList<Integer> r: res){
             System.out.println(r);
         }
